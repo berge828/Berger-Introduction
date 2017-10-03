@@ -11,3 +11,20 @@ h2 {
   background-color: #f9ff5b;
   padding: 1%;
 }
+.container {
+    overflow: hidden;
+    border: 2px solid #0f0;
+    width: 400px;
+    margin-bottom: 1em;
+}
+
+.container img {
+    float: left;
+    border: 2px solid red;
+}
+
+.container p {
+    font-size: 0.8em;
+    border: 2px solid blue;
+    margin-left: 1em;
+}
