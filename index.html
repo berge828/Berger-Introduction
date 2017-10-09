@@ -1,98 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-    width: 700px;
-    align: center;
-    margin-top:0;
-		margin-right:auto;
-		margin-bottom:0;
-		margin-left:auto;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #000000;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #dbdbdb;
-}
-
-li a.active {
-    color: white;
-    background-color: #962121;
-}
-.container {
-    overflow: hidden;
-    border: 2px solid #000000;
-    width: 300px;
-    background-color: #dbdbdb;
-    align: center;
-    margin-top:0;
-		margin-right:auto;
-		margin-bottom:0;
-		margin-left:auto;
-}
-
-.container img {
-    float: left;
-    padding: 5px 5px;
-}
-
-.container p {
-    font-size: 1em;
-    margin-left: 1em;
-}
-</style>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: #962121;">
-<div align="center">
-  <img src="WCT.png" alt="WCT Logo" style="width:700px;height:68px;">
-</div>
-<ul>
-  <li><a class="active" href="https://berge828.github.io/WCT/">Home</a></li>
-  <li><a href="page2.html">Our Season</a></li>
-  <li><a href="#volunteer-now">Volunteer Now</a></li>
-  <li><a href="#support">Support</a></li>
-  <li><a href="#cast-crew">Cast &amp; Crew</a></li>
-  <li><a href="#about-us">About Us</a></li>
-</ul>
-<div align="center">
-<img src="Les Mis.jpg" alt="Les Mis Audience" style="width:700px;height:371px;">
-</div>
-<div class="container" style="width:700px">
-<h2 align="center">Welcome to Woodbury Community Theatre!</h2>
-<p align="center">Since 1975, we have been committed to producing quality productions while simultaneously creating a positive, fun environment for our volunteers.</p>
-</div>
-<div class="container" align="center">
-    <img src="Ticket.jpg" style="width:100px;height:100px">
-    <h3 style="text-decoration:underline"><a href="https://tickets.vendini.com/ticket-software.html?t=tix&w=f4872e726392510e7ad7550e61d086bf&vqitq=1550bc25-ad82-4033-9ae0-9bacf574f07b&vqitp=9899b1e9-9d94-4d3f-8907-4a9417969556&vqitts=1506998466&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=6d49cbd207bec6e6554f51be5afa4e17" style="color:#962121"> Tickets</a></h3>
-    <p>Purchase tickets for our upcoming productions!</p>
-</div>
-<div class="container" align="center">
-  <img src="Volunteer.jpg" style="width:100px;height:100px">
-  <h3 style="text-decoration:underline;color:#962121;">Volunteering</h3>
-  <p>Volunteer onstage or behind the scenes!</p>
-</div>
-<div class="container" align="center">
-  <img src="Sponsor.jpg" style="width:100px;height:100px">
-  <h3 style="text-decoration:underline;color:#962121;">Support</h3>
-  <p>Become a sponsor or donor today!</p>
-</div>
+
+<body>
+  <img src="WCT.png" alt="WCT Logo">
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="page2.html">Our Season</a></li>
+    <li><a href="#volunteer-now">Volunteer Now</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#cast-crew">Cast &amp; Crew</a></li>
+    <li><a href="#about-us">About Us</a></li>
+  </ul>
+
+  <img src="Les Mis.jpg" alt="Les Mis Audience">
+
+  <header>
+    <h2>Welcome to Woodbury Community Theatre!</h2>
+    <p>Since 1975, we have been committed to producing quality productions while simultaneously creating a positive, fun environment for our volunteers.</p>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+        <img src="Ticket.jpg">
+        <div>
+          <h3><a href="https://tickets.vendini.com/ticket-software.html?t=tix&w=f4872e726392510e7ad7550e61d086bf&vqitq=1550bc25-ad82-4033-9ae0-9bacf574f07b&vqitp=9899b1e9-9d94-4d3f-8907-4a9417969556&vqitts=1506998466&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=6d49cbd207bec6e6554f51be5afa4e17" style="color:#962121"> Tickets</a></h3>
+          <p>Purchase tickets for our upcoming productions!</p>
+        </div>
+    </div>
+    <div class="card">
+      <img src="Volunteer.jpg">
+      <div class="">
+        <h3 style="text-decoration:underline;color:#962121;">Volunteering</h3>
+        <p>Volunteer onstage or behind the scenes!</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Sponsor.jpg">
+      <div class="">
+        <h3 style="text-decoration:underline;color:#962121;">Support</h3>
+        <p>Become a sponsor or donor today!</p>
+      </div>
+    </div>
+    <div class="card">
+        <img src="Mission.jpg">
+        <div class="">
+          <h3 style="text-decoration: underline; color:#962121;">Our Mission</h3>
+          <p>Learn more about our mission and history!</p>
+        </div>
+  </section>
+
+  <footer>
+    <div class="footer">For more information, contact <a href="mailto:info@wct.org">info@wct.org</a>.<br>For tickets, contact <a href="mailto:tickets@wct.org">tickets@wct.org</a>.<br>Woodbury, Minnesota</div>
+  </footer>
 </body>
 </html>
