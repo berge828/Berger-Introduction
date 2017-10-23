@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8">
+<!DOCTYPE volunteer [
+  <!ELEMENT volunteer (name,email,phone,interests)
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ELEMENT interests (#PCDATA)>
+]>

@@ -1,0 +1,10 @@
+<volunteer_directory>
+
+  <volunteer>
+    <name>Insert Name</name>
+    <email>Insert Email</email>
+    <phone>Insert Phone Number</phone>
+    <interests>Insert List of Interests</interests>
+  </volunteer>
+
+</volunteer_directory>
