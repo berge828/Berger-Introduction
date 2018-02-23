@@ -25,6 +25,17 @@ img {
   border: 2px solid black;
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  margin: 4px auto;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
 table {
   background-color: #dbdbdb;
   width: 100%;
