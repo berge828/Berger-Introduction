@@ -205,3 +205,14 @@ footer {
   border: 2px solid black;
   padding: 2px;
 }
+
+.grid2 {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  margin: 4px auto;
+  padding: 0 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-gap: 4px;
+}
